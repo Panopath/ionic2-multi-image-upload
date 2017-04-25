@@ -1,3 +1,16 @@
-<div>
-  Hello
-</div>
+<ion-header>
+    <ion-navbar color="primary">
+        <ion-title>multi-image-upload demo</ion-title>
+    </ion-navbar>
+</ion-header>
+<ion-content padding>
+    <multi-image-upload></multi-image-upload>
+    <button ion-button block (click)="submit()" *ngIf="!multiImageUpload.isUploading && !uploadFinished">
+        <ion-icon name="checkmark"></ion-icon>
+        Upload
+    </button>
+    <button ion-button block (click)="cancel()" color="danger" *ngIf="multiImageUpload.isUploading && !uploadFinished">
+        <ion-icon name="close"></ion-icon>
+        Cancel
+    </button>
+</ion-content>
