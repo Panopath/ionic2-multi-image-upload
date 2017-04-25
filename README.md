@@ -7,6 +7,9 @@ ionic2-multi-image-upload
 * Shows a progress bar and a spin while uploading, shows a checkmark when finished.
 * Lets the user decide whether to retry or abort upon failure.
 
+# Demo
+[Check out the demo in your browser!](http://rawgit.com/KevinWang15/ionic2-multi-image-upload/demo/)
+
 # Dependencies
 
 * https://ionicframework.com/docs/native/transfer/
